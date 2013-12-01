@@ -1,0 +1,16 @@
+/***********************************************************************************************/
+/* UI ELEMENT STYLES */
+/* button / input / textarea ....
+/***********************************************************************************************/
+
+canvas{
+	position: relative;
+	margin-bottom: -132px;
+	@media screen and (max-width: $break-small) {
+		display: none;
+	}
+	@media screen and (max-width: $break-phone) {
+		display: none;
+	}
+
+}

@@ -1,0 +1,6932 @@
+/*!
+ * Bootstrap v3.0.0
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+
+/* line 23, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 28, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 31, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 35, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+[hidden] {
+  display: none;
+}
+
+/* line 38, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 43, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+body {
+  margin: 0;
+}
+a{
+  color: #ee3523;
+}
+
+/* line 46, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 50, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 53, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 57, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 61, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 64, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+dfn {
+  font-style: italic;
+}
+
+/* line 67, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 72, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 79, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 83, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 86, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 89, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+small {
+  font-size: 80%;
+}
+
+/* line 93, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 99, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+sup {
+  top: -0.5em;
+}
+
+/* line 102, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+sub {
+  bottom: -0.25em;
+}
+
+/* line 105, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+img {
+  border: 0;
+}
+
+/* line 108, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 111, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+figure {
+  margin: 0;
+}
+
+/* line 114, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 119, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 126, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 132, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button,
+input {
+  line-height: normal;
+}
+
+/* line 136, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button,
+select {
+  text-transform: none;
+}
+
+/* line 142, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 147, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 151, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 155, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 162, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 166, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 170, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 174, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 180, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 185, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 189, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* line 199, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 207, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+button,
+input,
+select[multiple],
+textarea {
+  background-image: none;
+}
+
+/* line 210, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+a {
+  color: #ee3523 !important;
+  text-decoration: none;
+}
+
+/* line 215, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+a:hover,
+a:focus {
+  color: #ee3523;
+  text-decoration: underline;
+}
+
+/* line 219, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 224, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+img {
+  vertical-align: middle;
+}
+
+/* line 227, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 232, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.img-rounded {
+  border-radius: 6px;
+}
+
+/* line 235, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 247, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 250, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 256, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+/* line 266, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 273, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.container:before,
+.container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 281, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.container:after {
+  clear: both;
+}
+
+/* line 285, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.container:before,
+.container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 293, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.container:after {
+  clear: both;
+}
+
+/* line 296, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 301, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 309, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.row:after {
+  clear: both;
+}
+
+/* line 313, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 321, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.row:after {
+  clear: both;
+}
+
+/* line 371, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 387, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11 {
+  float: left;
+}
+
+/* line 390, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-1 {
+  width: 8.333333333333332%;
+}
+
+/* line 393, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-2 {
+  width: 16.666666666666664%;
+}
+
+/* line 396, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 399, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-4 {
+  width: 33.33333333333333%;
+}
+
+/* line 402, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-5 {
+  width: 41.66666666666667%;
+}
+
+/* line 405, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 408, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-7 {
+  width: 58.333333333333336%;
+}
+
+/* line 411, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-8 {
+  width: 66.66666666666666%;
+}
+
+/* line 414, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 417, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-10 {
+  width: 83.33333333333334%;
+}
+
+/* line 420, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-11 {
+  width: 91.66666666666666%;
+}
+
+/* line 423, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.col-xs-12 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 427, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .container {
+    max-width: 750px;
+  }
+
+  /* line 440, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11 {
+    float: left;
+  }
+
+  /* line 443, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 446, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 449, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 452, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 455, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 458, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 461, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 464, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 467, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 470, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 473, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 476, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 479, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 482, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 485, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  /* line 488, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 491, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 494, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  /* line 497, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 500, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 503, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  /* line 506, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 509, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 512, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 515, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 518, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  /* line 521, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 524, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 527, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  /* line 530, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 533, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 536, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  /* line 539, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 542, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 545, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 548, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 551, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 554, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 557, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 560, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 563, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 566, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 569, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 572, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 575, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-sm-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 580, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .container {
+    max-width: 970px;
+  }
+
+  /* line 593, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11 {
+    float: left;
+  }
+
+  /* line 596, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 599, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 602, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 605, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 608, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 611, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 614, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 617, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 620, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 623, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 626, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 629, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 632, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 635, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 638, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 641, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 644, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 647, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 650, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 653, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 656, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 659, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 662, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 665, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 668, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 671, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 674, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 677, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 680, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 683, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 686, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 689, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 692, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 695, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 698, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 701, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 704, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 707, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 710, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 713, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 716, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 719, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 722, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 725, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 728, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 731, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 734, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 737, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 742, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .container {
+    max-width: 1170px;
+  }
+
+  /* line 755, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11 {
+    float: left;
+  }
+
+  /* line 758, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 761, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 764, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 767, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 770, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 773, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 776, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 779, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 782, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 785, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 788, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 791, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 794, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 797, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 800, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 803, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 806, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 809, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 812, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 815, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 818, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 821, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 824, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 827, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 830, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 833, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 836, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 839, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 842, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 845, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 848, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 851, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 854, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 857, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 860, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 863, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 866, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 869, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 872, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 875, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 878, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 881, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 884, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 887, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 890, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 893, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 896, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 899, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+
+/* line 904, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 912, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.clearfix:after {
+  clear: both;
+}
+
+/* line 915, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.pull-right {
+  float: right !important;
+}
+
+/* line 918, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.pull-left {
+  float: left !important;
+}
+
+/* line 921, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.hide {
+  display: none !important;
+}
+
+/* line 924, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.show {
+  display: block !important;
+}
+
+/* line 927, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.invisible {
+  visibility: hidden;
+}
+
+/* line 930, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 937, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+  }
+}
+
+/* line 948, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* line 952, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.visible-xs {
+  display: none !important;
+}
+
+/* line 955, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.visible-xs {
+  display: none !important;
+}
+
+/* line 959, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.visible-xs,
+td.visible-xs {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 963, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-xs {
+    display: block !important;
+  }
+
+  /* line 966, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 970, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 975, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-xs.visible-sm {
+    display: block !important;
+  }
+
+  /* line 978, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-xs.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 982, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-xs.visible-sm,
+  td.visible-xs.visible-sm {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 987, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-xs.visible-md {
+    display: block !important;
+  }
+
+  /* line 990, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-xs.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 994, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-xs.visible-md,
+  td.visible-xs.visible-md {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 999, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-xs.visible-lg {
+    display: block !important;
+  }
+
+  /* line 1002, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-xs.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 1006, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-xs.visible-lg,
+  td.visible-xs.visible-lg {
+    display: table-cell !important;
+  }
+}
+
+/* line 1010, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.visible-sm {
+  display: none !important;
+}
+
+/* line 1013, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.visible-sm {
+  display: none !important;
+}
+
+/* line 1017, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.visible-sm,
+td.visible-sm {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1021, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-sm.visible-xs {
+    display: block !important;
+  }
+
+  /* line 1024, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-sm.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 1028, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-sm.visible-xs,
+  td.visible-sm.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1033, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-sm {
+    display: block !important;
+  }
+
+  /* line 1036, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 1040, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1045, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-sm.visible-md {
+    display: block !important;
+  }
+
+  /* line 1048, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-sm.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 1052, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-sm.visible-md,
+  td.visible-sm.visible-md {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1057, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-sm.visible-lg {
+    display: block !important;
+  }
+
+  /* line 1060, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-sm.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 1064, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-sm.visible-lg,
+  td.visible-sm.visible-lg {
+    display: table-cell !important;
+  }
+}
+
+/* line 1068, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.visible-md {
+  display: none !important;
+}
+
+/* line 1071, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.visible-md {
+  display: none !important;
+}
+
+/* line 1075, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.visible-md,
+td.visible-md {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1079, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-md.visible-xs {
+    display: block !important;
+  }
+
+  /* line 1082, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-md.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 1086, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-md.visible-xs,
+  td.visible-md.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1091, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-md.visible-sm {
+    display: block !important;
+  }
+
+  /* line 1094, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-md.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 1098, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-md.visible-sm,
+  td.visible-md.visible-sm {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1103, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-md {
+    display: block !important;
+  }
+
+  /* line 1106, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 1110, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1115, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-md.visible-lg {
+    display: block !important;
+  }
+
+  /* line 1118, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-md.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 1122, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-md.visible-lg,
+  td.visible-md.visible-lg {
+    display: table-cell !important;
+  }
+}
+
+/* line 1126, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.visible-lg {
+  display: none !important;
+}
+
+/* line 1129, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.visible-lg {
+  display: none !important;
+}
+
+/* line 1133, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.visible-lg,
+td.visible-lg {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1137, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-lg.visible-xs {
+    display: block !important;
+  }
+
+  /* line 1140, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-lg.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 1144, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-lg.visible-xs,
+  td.visible-lg.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1149, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-lg.visible-sm {
+    display: block !important;
+  }
+
+  /* line 1152, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-lg.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 1156, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-lg.visible-sm,
+  td.visible-lg.visible-sm {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1161, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-lg.visible-md {
+    display: block !important;
+  }
+
+  /* line 1164, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-lg.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 1168, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-lg.visible-md,
+  td.visible-lg.visible-md {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1173, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-lg {
+    display: block !important;
+  }
+
+  /* line 1176, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 1180, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+
+/* line 1184, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.hidden-xs {
+  display: block !important;
+}
+
+/* line 1187, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.hidden-xs {
+  display: table-row !important;
+}
+
+/* line 1191, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.hidden-xs,
+td.hidden-xs {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1195, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1198, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1202, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-xs,
+  td.hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1207, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-xs.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1210, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-xs.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1214, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-xs.hidden-sm,
+  td.hidden-xs.hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1219, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-xs.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1222, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-xs.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1226, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-xs.hidden-md,
+  td.hidden-xs.hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1231, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-xs.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1234, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-xs.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1238, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-xs.hidden-lg,
+  td.hidden-xs.hidden-lg {
+    display: none !important;
+  }
+}
+
+/* line 1242, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.hidden-sm {
+  display: block !important;
+}
+
+/* line 1245, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.hidden-sm {
+  display: table-row !important;
+}
+
+/* line 1249, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.hidden-sm,
+td.hidden-sm {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1253, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-sm.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1256, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-sm.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1260, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-sm.hidden-xs,
+  td.hidden-sm.hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1265, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1268, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1272, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-sm,
+  td.hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1277, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-sm.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1280, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-sm.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1284, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-sm.hidden-md,
+  td.hidden-sm.hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1289, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-sm.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1292, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-sm.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1296, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-sm.hidden-lg,
+  td.hidden-sm.hidden-lg {
+    display: none !important;
+  }
+}
+
+/* line 1300, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.hidden-md {
+  display: block !important;
+}
+
+/* line 1303, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.hidden-md {
+  display: table-row !important;
+}
+
+/* line 1307, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.hidden-md,
+td.hidden-md {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1311, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-md.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1314, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-md.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1318, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-md.hidden-xs,
+  td.hidden-md.hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1323, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-md.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1326, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-md.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1330, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-md.hidden-sm,
+  td.hidden-md.hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1335, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-md {
+    display: none !important;
+  }
+
+  /* line 1338, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1342, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-md,
+  td.hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1347, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-md.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1350, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-md.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1354, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-md.hidden-lg,
+  td.hidden-md.hidden-lg {
+    display: none !important;
+  }
+}
+
+/* line 1358, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.hidden-lg {
+  display: block !important;
+}
+
+/* line 1361, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.hidden-lg {
+  display: table-row !important;
+}
+
+/* line 1365, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.hidden-lg,
+td.hidden-lg {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1369, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-lg.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1372, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-lg.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 1376, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-lg.hidden-xs,
+  td.hidden-lg.hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1381, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-lg.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1384, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-lg.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 1388, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-lg.hidden-sm,
+  td.hidden-lg.hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1393, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-lg.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1396, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-lg.hidden-md {
+    display: none !important;
+  }
+
+  /* line 1400, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-lg.hidden-md,
+  td.hidden-lg.hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 1405, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1408, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 1412, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-lg,
+  td.hidden-lg {
+    display: none !important;
+  }
+}
+
+/* line 1416, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.visible-print {
+  display: none !important;
+}
+
+/* line 1419, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+tr.visible-print {
+  display: none !important;
+}
+
+/* line 1423, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+th.visible-print,
+td.visible-print {
+  display: none !important;
+}
+
+@media print {
+  /* line 1427, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .visible-print {
+    display: block !important;
+  }
+
+  /* line 1430, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+  /* line 1434, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+
+  /* line 1437, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  .hidden-print {
+    display: none !important;
+  }
+
+  /* line 1440, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  tr.hidden-print {
+    display: none !important;
+  }
+
+  /* line 1444, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+  th.hidden-print,
+  td.hidden-print {
+    display: none !important;
+  }
+}
+
+/* line 1448, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+/* line 1453, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.fade.in {
+  opacity: 1;
+}
+
+/* line 1456, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.collapse {
+  display: none;
+}
+
+/* line 1459, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.collapse.in {
+  display: block;
+}
+
+/* line 1462, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_bootstrap.scss */
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* line 18, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+/* line 28, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 31, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+body {
+  line-height: 1.5;
+}
+
+/* line 35, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 39, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 43, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 48, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 56, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+/* line 62, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_reset.scss */
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+/*
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/* line 14, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+body {
+  /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 17, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 28, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes flash {
+  /* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  /* line 37, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  /* line 51, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  /* line 52, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+/* line 55, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+@-webkit-keyframes shake {
+  /* line 62, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0%, 100% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 63, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  /* line 64, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+  /* line 80, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 81, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  /* line 82, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+
+/* line 85, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+@-webkit-keyframes bounce {
+  /* line 92, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 93, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: translateY(-30px);
+  }
+
+  /* line 94, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  /* line 109, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 110, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  /* line 111, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+/* line 114, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+@-webkit-keyframes tada {
+  /* line 121, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  /* line 122, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+  }
+
+  /* line 123, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+  }
+
+  /* line 124, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+  }
+
+  /* line 125, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes tada {
+  /* line 145, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  /* line 146, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    -ms-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  /* line 147, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  /* line 148, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    -ms-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  /* line 149, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+/* line 152, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+@-webkit-keyframes swing {
+  /* line 159, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20%, 40%, 60%, 80%, 100% {
+    -webkit-transform-origin: top center;
+  }
+
+  /* line 160, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    -webkit-transform: rotate(15deg);
+  }
+
+  /* line 161, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 162, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: rotate(5deg);
+  }
+
+  /* line 163, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: rotate(-5deg);
+  }
+
+  /* line 164, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes swing {
+  /* line 184, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  /* line 185, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  /* line 186, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  /* line 187, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  /* line 188, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+/* line 191, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.swing {
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes wobble {
+  /* line 204, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+
+  /* line 205, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  15% {
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+  }
+
+  /* line 206, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  30% {
+    -webkit-transform: translateX(20%) rotate(3deg);
+  }
+
+  /* line 207, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  45% {
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+  }
+
+  /* line 208, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: translateX(10%) rotate(2deg);
+  }
+
+  /* line 209, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  75% {
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+  }
+
+  /* line 210, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+@keyframes wobble {
+  /* line 234, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  /* line 235, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  15% {
+    -webkit-transform: translateX(-25%) rotate(-5deg);
+    -ms-transform: translateX(-25%) rotate(-5deg);
+    transform: translateX(-25%) rotate(-5deg);
+  }
+
+  /* line 236, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  30% {
+    -webkit-transform: translateX(20%) rotate(3deg);
+    -ms-transform: translateX(20%) rotate(3deg);
+    transform: translateX(20%) rotate(3deg);
+  }
+
+  /* line 237, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  45% {
+    -webkit-transform: translateX(-15%) rotate(-3deg);
+    -ms-transform: translateX(-15%) rotate(-3deg);
+    transform: translateX(-15%) rotate(-3deg);
+  }
+
+  /* line 238, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: translateX(10%) rotate(2deg);
+    -ms-transform: translateX(10%) rotate(2deg);
+    transform: translateX(10%) rotate(2deg);
+  }
+
+  /* line 239, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  75% {
+    -webkit-transform: translateX(-5%) rotate(-1deg);
+    -ms-transform: translateX(-5%) rotate(-1deg);
+    transform: translateX(-5%) rotate(-1deg);
+  }
+
+  /* line 240, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+/* line 243, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+  /* line 252, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  /* line 253, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+
+  /* line 254, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  /* line 267, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  /* line 268, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  /* line 269, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* line 272, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes flip {
+  /* line 279, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  /* line 283, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  /* line 287, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  /* line 291, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  /* line 295, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+
+@keyframes flip {
+  /* line 345, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  /* line 349, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  /* line 353, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  /* line 357, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  /* line 361, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+/* line 367, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.flip {
+  -webkit-backface-visibility: visible !important;
+  -webkit-animation-name: flip;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flip;
+}
+
+@-webkit-keyframes flipInX {
+  /* line 378, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  /* line 383, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+  }
+
+  /* line 387, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+  }
+
+  /* line 391, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipInX {
+  /* line 435, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  /* line 440, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+    -ms-transform: perspective(400px) rotateX(-10deg);
+    transform: perspective(400px) rotateX(-10deg);
+  }
+
+  /* line 444, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    -ms-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+  }
+
+  /* line 448, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+/* line 454, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.flipInX {
+  -webkit-backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+
+@-webkit-keyframes flipOutX {
+  /* line 465, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  /* line 469, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes flipOutX {
+  /* line 498, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  /* line 502, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+
+/* line 508, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.flipOutX {
+  -webkit-animation-name: flipOutX;
+  -webkit-backface-visibility: visible !important;
+  animation-name: flipOutX;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+}
+
+@-webkit-keyframes flipInY {
+  /* line 519, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+
+  /* line 524, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: perspective(400px) rotateY(-10deg);
+  }
+
+  /* line 528, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  70% {
+    -webkit-transform: perspective(400px) rotateY(10deg);
+  }
+
+  /* line 532, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipInY {
+  /* line 576, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    -ms-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+
+  /* line 581, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: perspective(400px) rotateY(-10deg);
+    -ms-transform: perspective(400px) rotateY(-10deg);
+    transform: perspective(400px) rotateY(-10deg);
+  }
+
+  /* line 585, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  70% {
+    -webkit-transform: perspective(400px) rotateY(10deg);
+    -ms-transform: perspective(400px) rotateY(10deg);
+    transform: perspective(400px) rotateY(10deg);
+  }
+
+  /* line 589, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    -ms-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+/* line 595, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.flipInY {
+  -webkit-backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInY;
+}
+
+@-webkit-keyframes flipOutY {
+  /* line 606, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+
+  /* line 610, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes flipOutY {
+  /* line 636, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    -ms-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+
+  /* line 640, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    -ms-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+}
+
+/* line 646, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.flipOutY {
+  -webkit-backface-visibility: visible !important;
+  -webkit-animation-name: flipOutY;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipOutY;
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 657, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 658, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 672, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 673, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 676, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInUp {
+  /* line 683, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+
+  /* line 688, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1 !important;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  /* line 719, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  /* line 724, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* line 730, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes fadeInDown {
+  /* line 746, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 751, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  /* line 782, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  /* line 787, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* line 793, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInLeft {
+  /* line 800, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 805, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  /* line 836, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  /* line 841, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 847, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInRight {
+  /* line 854, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+
+  /* line 859, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  /* line 890, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  /* line 895, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 901, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  /* line 908, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+
+  /* line 913, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpBig {
+  /* line 944, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+
+  /* line 949, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* line 955, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  /* line 962, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  /* line 967, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDownBig {
+  /* line 998, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  /* line 1003, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* line 1009, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+  /* line 1016, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+
+  /* line 1021, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeftBig {
+  /* line 1049, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+
+  /* line 1054, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 1060, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+
+@-webkit-keyframes fadeInRightBig {
+  /* line 1067, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  }
+
+  /* line 1072, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRightBig {
+  /* line 1103, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 1108, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 1114, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+
+@-webkit-keyframes fadeOut {
+  /* line 1121, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 1122, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  /* line 1136, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 1137, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 1140, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOutUp {
+  /* line 1147, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 1152, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeOutUp {
+  /* line 1180, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 1185, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+/* line 1191, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+
+@-webkit-keyframes fadeOutDown {
+  /* line 1198, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 1203, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+}
+
+@keyframes fadeOutDown {
+  /* line 1234, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 1239, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+/* line 1245, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+}
+
+@-webkit-keyframes fadeOutLeft {
+  /* line 1252, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 1257, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+}
+
+@keyframes fadeOutLeft {
+  /* line 1288, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 1293, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+
+/* line 1299, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+@-webkit-keyframes fadeOutRight {
+  /* line 1306, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 1311, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+}
+
+@keyframes fadeOutRight {
+  /* line 1342, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 1347, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+}
+
+/* line 1353, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutRight {
+  -webkit-animation-name: fadeOutRight;
+  animation-name: fadeOutRight;
+}
+
+@-webkit-keyframes fadeOutUpBig {
+  /* line 1360, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 1365, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+}
+
+@keyframes fadeOutUpBig {
+  /* line 1396, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 1401, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+
+/* line 1407, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutUpBig {
+  -webkit-animation-name: fadeOutUpBig;
+  animation-name: fadeOutUpBig;
+}
+
+@-webkit-keyframes fadeOutDownBig {
+  /* line 1414, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 1419, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+}
+
+@keyframes fadeOutDownBig {
+  /* line 1450, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 1455, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+
+/* line 1461, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutDownBig {
+  -webkit-animation-name: fadeOutDownBig;
+  animation-name: fadeOutDownBig;
+}
+
+@-webkit-keyframes fadeOutLeftBig {
+  /* line 1468, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 1473, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+}
+
+@keyframes fadeOutLeftBig {
+  /* line 1504, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 1509, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+
+/* line 1515, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutLeftBig {
+  -webkit-animation-name: fadeOutLeftBig;
+  animation-name: fadeOutLeftBig;
+}
+
+@-webkit-keyframes fadeOutRightBig {
+  /* line 1522, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 1527, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  }
+}
+
+@keyframes fadeOutRightBig {
+  /* line 1555, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 1560, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+
+/* line 1566, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.fadeOutRightBig {
+  -webkit-animation-name: fadeOutRightBig;
+  animation-name: fadeOutRightBig;
+}
+
+@-webkit-keyframes bounceIn {
+  /* line 1573, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+  }
+
+  /* line 1578, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+  }
+
+  /* line 1583, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  70% {
+    -webkit-transform: scale(0.9);
+  }
+
+  /* line 1587, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  /* line 1633, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+
+  /* line 1638, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  /* line 1643, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  70% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  /* line 1647, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* line 1652, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+@-webkit-keyframes bounceInUp {
+  /* line 1659, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+
+  /* line 1664, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+  }
+
+  /* line 1669, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateY(10px);
+  }
+
+  /* line 1673, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes bounceInUp {
+  /* line 1718, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+
+  /* line 1723, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  /* line 1728, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  /* line 1732, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* line 1737, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+@-webkit-keyframes bounceInDown {
+  /* line 1744, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  /* line 1749, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+  }
+
+  /* line 1754, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+
+  /* line 1758, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes bounceInDown {
+  /* line 1804, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  /* line 1809, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  /* line 1814, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  /* line 1818, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* line 1823, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+@-webkit-keyframes bounceInLeft {
+  /* line 1830, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+
+  /* line 1835, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+  }
+
+  /* line 1840, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  /* line 1844, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInLeft {
+  /* line 1890, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+
+  /* line 1895, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+
+  /* line 1900, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  /* line 1904, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 1909, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+@-webkit-keyframes bounceInRight {
+  /* line 1916, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  }
+
+  /* line 1921, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+  }
+
+  /* line 1926, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+  }
+
+  /* line 1930, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInRight {
+  /* line 1976, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 1981, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 1986, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 1990, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 1995, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+@-webkit-keyframes bounceOut {
+  /* line 2002, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  /* line 2006, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  25% {
+    -webkit-transform: scale(0.95);
+  }
+
+  /* line 2010, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+  }
+
+  /* line 2015, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+  }
+}
+
+@keyframes bounceOut {
+  /* line 2062, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  /* line 2066, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  25% {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  /* line 2070, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  /* line 2075, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+}
+
+/* line 2081, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceOut {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}
+
+@-webkit-keyframes bounceOutUp {
+  /* line 2088, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 2092, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+  }
+
+  /* line 2097, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+}
+
+@keyframes bounceOutUp {
+  /* line 2136, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 2140, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  /* line 2145, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+}
+
+/* line 2151, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceOutUp {
+  -webkit-animation-name: bounceOutUp;
+  animation-name: bounceOutUp;
+}
+
+@-webkit-keyframes bounceOutDown {
+  /* line 2158, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 2162, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 2167, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+}
+
+@keyframes bounceOutDown {
+  /* line 2206, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 2210, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  /* line 2215, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+
+/* line 2221, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceOutDown {
+  -webkit-animation-name: bounceOutDown;
+  animation-name: bounceOutDown;
+}
+
+@-webkit-keyframes bounceOutLeft {
+  /* line 2228, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 2232, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+  }
+
+  /* line 2237, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+}
+
+@keyframes bounceOutLeft {
+  /* line 2276, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 2280, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  /* line 2285, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+
+/* line 2291, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceOutLeft {
+  -webkit-animation-name: bounceOutLeft;
+  animation-name: bounceOutLeft;
+}
+
+@-webkit-keyframes bounceOutRight {
+  /* line 2298, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 2302, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 2307, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  }
+}
+
+@keyframes bounceOutRight {
+  /* line 2346, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 2350, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  /* line 2355, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+
+/* line 2361, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.bounceOutRight {
+  -webkit-animation-name: bounceOutRight;
+  animation-name: bounceOutRight;
+}
+
+@-webkit-keyframes rotateIn {
+  /* line 2368, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    opacity: 0;
+  }
+
+  /* line 2374, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  /* line 2407, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(-200deg);
+    -ms-transform: rotate(-200deg);
+    transform: rotate(-200deg);
+    opacity: 0;
+  }
+
+  /* line 2413, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/* line 2420, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+@-webkit-keyframes rotateInUpLeft {
+  /* line 2427, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
+
+  /* line 2433, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInUpLeft {
+  /* line 2469, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+
+  /* line 2475, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/* line 2482, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateInUpLeft {
+  -webkit-animation-name: rotateInUpLeft;
+  animation-name: rotateInUpLeft;
+}
+
+@-webkit-keyframes rotateInDownLeft {
+  /* line 2489, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+
+  /* line 2495, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInDownLeft {
+  /* line 2531, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+
+  /* line 2537, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/* line 2544, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateInDownLeft {
+  -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
+}
+
+@-webkit-keyframes rotateInUpRight {
+  /* line 2551, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+
+  /* line 2557, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInUpRight {
+  /* line 2593, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+
+  /* line 2599, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/* line 2606, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateInUpRight {
+  -webkit-animation-name: rotateInUpRight;
+  animation-name: rotateInUpRight;
+}
+
+@-webkit-keyframes rotateInDownRight {
+  /* line 2613, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
+
+  /* line 2619, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInDownRight {
+  /* line 2655, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+
+  /* line 2661, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/* line 2668, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateInDownRight {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+}
+
+@-webkit-keyframes rotateOut {
+  /* line 2675, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2681, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotateOut {
+  /* line 2717, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2723, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(200deg);
+    -ms-transform: rotate(200deg);
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+}
+
+/* line 2730, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateOut {
+  -webkit-animation-name: rotateOut;
+  animation-name: rotateOut;
+}
+
+@-webkit-keyframes rotateOutUpLeft {
+  /* line 2737, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2743, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotateOutUpLeft {
+  /* line 2779, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2785, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+/* line 2792, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateOutUpLeft {
+  -webkit-animation-name: rotateOutUpLeft;
+  animation-name: rotateOutUpLeft;
+}
+
+@-webkit-keyframes rotateOutDownLeft {
+  /* line 2799, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2805, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotateOutDownLeft {
+  /* line 2841, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2847, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+/* line 2854, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateOutDownLeft {
+  -webkit-animation-name: rotateOutDownLeft;
+  animation-name: rotateOutDownLeft;
+}
+
+@-webkit-keyframes rotateOutUpRight {
+  /* line 2861, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2867, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotateOutUpRight {
+  /* line 2903, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2909, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+/* line 2916, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateOutUpRight {
+  -webkit-animation-name: rotateOutUpRight;
+  animation-name: rotateOutUpRight;
+}
+
+@-webkit-keyframes rotateOutDownRight {
+  /* line 2923, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2929, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotateOutDownRight {
+  /* line 2965, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+
+  /* line 2971, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+/* line 2978, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rotateOutDownRight {
+  -webkit-animation-name: rotateOutDownRight;
+  animation-name: rotateOutDownRight;
+}
+
+@-webkit-keyframes hinge {
+  /* line 2985, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: rotate(0);
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+
+  /* line 2986, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20%, 60% {
+    -webkit-transform: rotate(80deg);
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+
+  /* line 2987, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+
+  /* line 2988, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: rotate(60deg) translateY(0);
+    opacity: 1;
+    -webkit-transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+
+  /* line 2989, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateY(700px);
+    opacity: 0;
+  }
+}
+
+@keyframes hinge {
+  /* line 3009, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  /* line 3010, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  20%, 60% {
+    -webkit-transform: rotate(80deg);
+    -ms-transform: rotate(80deg);
+    transform: rotate(80deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  /* line 3011, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  40% {
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  /* line 3012, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: rotate(60deg) translateY(0);
+    -ms-transform: rotate(60deg) translateY(0);
+    transform: rotate(60deg) translateY(0);
+    opacity: 1;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  /* line 3013, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateY(700px);
+    -ms-transform: translateY(700px);
+    transform: translateY(700px);
+    opacity: 0;
+  }
+}
+
+/* line 3016, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.hinge {
+  -webkit-animation-name: hinge;
+  animation-name: hinge;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes rollIn {
+  /* line 3025, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+  }
+
+  /* line 3026, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+  }
+}
+
+@keyframes rollIn {
+  /* line 3040, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+    -ms-transform: translateX(-100%) rotate(-120deg);
+    transform: translateX(-100%) rotate(-120deg);
+  }
+
+  /* line 3041, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+/* line 3044, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes rollOut {
+  /* line 3053, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+  }
+
+  /* line 3058, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%) rotate(120deg);
+  }
+}
+
+@keyframes rollOut {
+  /* line 3089, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  /* line 3094, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%) rotate(120deg);
+    -ms-transform: translateX(100%) rotate(120deg);
+    transform: translateX(100%) rotate(120deg);
+  }
+}
+
+/* line 3100, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.rollOut {
+  -webkit-animation-name: rollOut;
+  animation-name: rollOut;
+}
+
+/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+
+@-webkit-keyframes lightSpeedIn {
+  /* line 3110, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+
+  /* line 3111, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: translateX(-20%) skewX(30deg);
+    opacity: 1;
+  }
+
+  /* line 3112, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateX(0%) skewX(-15deg);
+    opacity: 1;
+  }
+
+  /* line 3113, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes lightSpeedIn {
+  /* line 3131, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    -ms-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+
+  /* line 3132, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  60% {
+    -webkit-transform: translateX(-20%) skewX(30deg);
+    -ms-transform: translateX(-20%) skewX(30deg);
+    transform: translateX(-20%) skewX(30deg);
+    opacity: 1;
+  }
+
+  /* line 3133, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  80% {
+    -webkit-transform: translateX(0%) skewX(-15deg);
+    -ms-transform: translateX(0%) skewX(-15deg);
+    transform: translateX(0%) skewX(-15deg);
+    opacity: 1;
+  }
+
+  /* line 3134, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    -ms-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+}
+
+/* line 3137, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.lightSpeedIn {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+/* line 3149, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.lightSpeedIn {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+
+@-webkit-keyframes lightSpeedOut {
+  /* line 3159, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+
+  /* line 3160, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes lightSpeedOut {
+  /* line 3174, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  0% {
+    -webkit-transform: translateX(0%) skewX(0deg);
+    -ms-transform: translateX(0%) skewX(0deg);
+    transform: translateX(0%) skewX(0deg);
+    opacity: 1;
+  }
+
+  /* line 3175, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+  100% {
+    -webkit-transform: translateX(100%) skewX(-30deg);
+    -ms-transform: translateX(100%) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
+    opacity: 0;
+  }
+}
+
+/* line 3178, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.lightSpeedOut {
+  -webkit-animation-name: lightSpeedOut;
+  animation-name: lightSpeedOut;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+/* line 3190, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/vendor/_animation.scss */
+
+.animated.lightSpeedOut {
+  -webkit-animation-duration: 0.25s;
+  animation-duration: 0.25s;
+}
+
+/***********************************************************************************************/
+
+/* SCSS VARIABLES */
+
+/***********************************************************************************************/
+
+/***********************************************************************************************/
+
+/* SCSS MIXINS */
+
+/***********************************************************************************************/
+
+/* line 1, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.twitter > a {
+  background-image: url(../images/icons/social/twitter.png);
+}
+
+/* line 2, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.facebook > a {
+  background-image: url(../images/icons/social/facebook.png);
+}
+
+/* line 3, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.dribbble > a {
+  background-image: url(../images/icons/social/Dribbble.png);
+}
+
+/* line 4, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.google > a {
+  background-image: url(../images/icons/social/google-plus.png);
+}
+
+/* line 5, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.behance > a {
+  background-image: url(../images/icons/social/behance.png);
+}
+
+/* line 6, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.youtube > a {
+  background-image: url(../images/icons/social/youtube.png);
+}
+
+/* line 7, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.flikr > a {
+  background-image: url(../images/icons/social/flikr.png);
+}
+
+/* line 8, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.pinterest > a {
+  background-image: url(../images/icons/social/pinterest.png);
+}
+
+/* line 9, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.amazon > a {
+  background-image: url(../images/icons/social/amazon.png);
+}
+
+/* line 10, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.appel > a {
+  background-image: url(../images/icons/social/appel.png);
+}
+
+/* line 11, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.appstore > a {
+  background-image: url(../images/icons/social/appstore.png);
+}
+
+/* line 12, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.blogger > a {
+  background-image: url(../images/icons/social/blogger.png);
+}
+
+/* line 13, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.delicious > a {
+  background-image: url(../images/icons/social/delicious.png);
+}
+
+/* line 14, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.deviantart > a {
+  background-image: url(../images/icons/social/deviantart.png);
+}
+
+/* line 15, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.digg > a {
+  background-image: url(../images/icons/social/digg.png);
+}
+
+/* line 16, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.dropbox > a {
+  background-image: url(../images/icons/social/dropbox.png);
+}
+
+/* line 17, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.forrst > a {
+  background-image: url(../images/icons/social/forrst.png);
+}
+
+/* line 18, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.html5 > a {
+  background-image: url(../images/icons/social/html5.png);
+}
+
+/* line 19, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.instagram > a {
+  background-image: url(../images/icons/social/instagram.png);
+}
+
+/* line 20, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.last_fm > a {
+  background-image: url(../images/icons/social/last_fm.png);
+}
+
+/* line 21, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.linkedin > a {
+  background-image: url(../images/icons/social/linkedin.png);
+}
+
+/* line 22, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.paypal > a {
+  background-image: url(../images/icons/social/paypal.png);
+}
+
+/* line 23, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.picasa > a {
+  background-image: url(../images/icons/social/picasa.png);
+}
+
+/* line 24, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.rss > a {
+  background-image: url(../images/icons/social/rss.png);
+}
+
+/* line 25, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.skype > a {
+  background-image: url(../images/icons/social/skype.png);
+}
+
+/* line 26, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.stumbleupon > a {
+  background-image: url(../images/icons/social/stumbleupon.png);
+}
+
+/* line 27, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.technorati > a {
+  background-image: url(../images/icons/social/technorati.png);
+}
+
+/* line 28, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.tumblr > a {
+  background-image: url(../images/icons/social/tumblr.png);
+}
+
+/* line 29, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.vimeo > a {
+  background-image: url(../images/icons/social/vimeo.png);
+}
+
+/* line 30, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.windows > a {
+  background-image: url(../images/icons/social/windows.png);
+}
+
+/* line 31, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.wordpress > a {
+  background-image: url(../images/icons/social/wordpress.png);
+}
+
+/* line 32, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_icons.scss */
+
+.social li.yahoo > a {
+  background-image: url(../images/icons/social/yahoo.png);
+}
+
+/***********************************************************************************************/
+
+/* GENERAL */
+
+/***********************************************************************************************/
+
+/***********************************************************************************************/
+
+/* HEADER */
+
+/***********************************************************************************************/
+
+/* line 9, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+header {
+  position: absolute;
+  background: url('../images/ui/pattren.png?1380739150');
+  z-index: 50;
+  width: 100%;
+  height: 200px;
+  height: 120px;
+}
+
+/* line 14, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.logo {
+  position: relative;
+  z-index: 100;
+  margin-top: 60px;
+}
+
+/***********************************************************************************************/
+
+/* MIDDLE CONTENT */
+
+/***********************************************************************************************/
+
+/* line 24, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.bg {
+  position: relative;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  width: 100%;
+  z-index: 0;
+  background: url('../images/bg.jpg?1381009499');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.bg_color {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+/* line 42, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.bg_color .bg1 {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url('../images/ui/Targets.png?1380673094');
+  background-position: center;
+  z-index: -100;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* line 52, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.bg_color .bg2 {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background: url('../images/ui/TargetsSmall.png?1381009044');
+  z-index: -100;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/***********************************************************************************************/
+
+/* MIDDLE CONTENT */
+
+/***********************************************************************************************/
+
+/* line 73, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown {
+  z-index: 15000;
+  margin-top: 90px;
+  margin-bottom: 155px;
+}
+
+/* line 77, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown li {
+  background: url('../images/ui/circle.png?1380726866');
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  width: 153px;
+  height: 153px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 77, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  #countdown li {
+    background: none;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 77, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  #countdown li {
+    background: none;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* line 94, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown li .info {
+  position: relative;
+  top: -23px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 94, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  #countdown li .info {
+    top: -55px;
+  }
+}
+
+/* line 101, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown li .info .ship {
+  position: relative;
+  background: url('../images/ui/ship.png?1380730041');
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  top: 35px;
+  z-index: -10;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 101, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  #countdown li .info .ship {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 101, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  #countdown li .info .ship {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 122, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown li .info .num span {
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #f2cd21;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 133, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown li .info .label {
+  position: relative;
+  background: url('../images/ui/lable.png?1380727825');
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+}
+
+/* line 138, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+#countdown li .info .label span {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+/* line 148, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.ourinfo {
+  cursor: pointer;
+  position: absolute;
+  margin: 0 auto 0;
+  left: 0;
+  right: 0;
+  bottom: 225px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 148, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  .ourinfo {
+    bottom: 260px;
+  }
+}
+
+/* line 158, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.ourinfo span {
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+}
+
+/* line 172, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.ourinfo span p {
+  background: url('../images/icons/info.png?1380977618');
+  height: 32px;
+  width: 32px;
+}
+
+/* line 182, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.popup {
+  background: url('../images/pattren.png?1380993106');
+  position: absolute;
+  bottom: -500px;
+  width: 410px;
+  height: 328px;
+  margin: 0 auto 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999999999;
+  border: 1px solid #aa0607;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 182, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  .popup {
+    width: 320px;
+  }
+}
+
+/* line 198, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.popup .information {
+  z-index: 99999;
+}
+
+/* line 201, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.popup .information h2 {
+  position: absolute;
+  background: #aa0607;
+  padding: 8px 60px 8px 20px;
+  font-size: 18px;
+  left: 0px;
+  top: 30px;
+}
+
+/* line 209, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.popup .information p {
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  left: 50px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  z-index: 99999;
+}
+
+/* line 219, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.popup .information a {
+  background: url('../images/icons/close.png?1380992996');
+  position: absolute;
+  bottom: 10px;
+  right: 22px;
+  width: 32px;
+  height: 32px;
+  z-index: 99999;
+}
+
+/* line 230, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+.popup span {
+  position: absolute;
+  background: url('../images/ui/line.png?1380993400');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  left: 35px;
+  top: 62px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 230, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  .popup span {
+    background: url('../images/ui/linePhone.png?1380998506');
+    background-repeat: no-repeat;
+  }
+}
+
+/***********************************************************************************************/
+
+/* FOOTER */
+
+/***********************************************************************************************/
+
+/* line 248, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer {
+  position: absolute;
+  background: url('../images/ui/pattren.png?1380739150');
+  z-index: 50;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  height: 225px;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 248, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer {
+    height: 255px;
+  }
+}
+
+/* line 256, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset {
+  background: url('../images/ui/sub.png?1380739414');
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 170px;
+  margin: 0 auto;
+  z-index: 100;
+  left: -30px;
+  position: relative;
+  top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 256, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer fieldset {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+/* line 270, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset legend {
+  position: relative;
+  font-size: 16px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  line-height: 100%;
+  text-transform: uppercase;
+  left: 44px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 270, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer fieldset legend {
+    left: 0px;
+  }
+}
+
+/* line 284, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .content {
+  padding-top: 25px;
+}
+
+/* line 288, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* line 290, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet .leftdiv {
+  background: url('../images/ui/right-button.png?1380674198');
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 36px;
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -2px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 290, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer fieldset .inputSet .leftdiv {
+    display: none;
+  }
+}
+
+/* line 302, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet .leftdiv span {
+  padding: 5px;
+  line-height: 32px;
+  z-index: -10;
+}
+
+/* line 309, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet input {
+  min-width: 325px;
+  background: #fff;
+  opacity: .7;
+  padding: 2px 10px;
+  color: #010101;
+  border: 1px solid #fff;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 309, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer fieldset .inputSet input {
+    min-width: 100px;
+  }
+}
+
+/* line 319, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet input:focus {
+  background: #fbe8bd;
+  border: 1px solid #aa0607;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+/* line 325, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet .but {
+  background: url('../images/ui/left_button.png?1380674173');
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 36px;
+  float: right;
+  position: relative;
+  top: -32px;
+  right: -70px;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 325, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer fieldset .inputSet .but {
+    margin: 0 auto;
+    top: 0px;
+    right: 0px;
+    float: none;
+    margin-top: 10px;
+  }
+}
+
+/* line 343, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet .but span {
+  padding: 5px;
+  line-height: 32px;
+  z-index: -10;
+  color: white;
+}
+
+/* line 348, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer fieldset .inputSet .but span:hover {
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  color: #aa0607;
+}
+
+/* line 358, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer .social {
+  z-index: 100;
+  margin-top: 20px;
+  position: relative;
+  left: 80px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 358, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer .social {
+    margin-top: 25px;
+    left: 0px;
+  }
+}
+
+/* line 370, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer .social ul li a {
+  background: no-repeat;
+  height: 32px;
+  width: 32px;
+  opacity: 1;
+  display: block;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  transition: transform 0.4s ease-out;
+}
+
+/* line 384, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+footer p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 384, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_layout.scss */
+
+  footer p {
+    margin-top: 50px;
+  }
+}
+
+/***********************************************************************************************/
+
+/* UI ELEMENT STYLES */
+
+/* button / input / textarea ....
+/***********************************************************************************************/
+
+/* line 6, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_ui.scss */
+
+canvas {
+  position: relative;
+  margin-bottom: -132px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 6, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_ui.scss */
+
+  canvas {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 6, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_ui.scss */
+
+  canvas {
+    display: none;
+  }
+}
+
+/***********************************************************************************************/
+
+/* UTILITY CLASSES */
+
+/***********************************************************************************************/
+
+/* line 4, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.align-center {
+  text-align: center;
+}
+
+/* line 8, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.align-left {
+  text-align: left;
+}
+
+/* line 12, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.align-right {
+  text-align: right;
+}
+
+/* line 32, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+.inline li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+/* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+.inline li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 320px) and (max-width: 480px) {
+  /* line 32, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+  .inline li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+  .inline li:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 32, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+  .inline li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+  .inline li:last-child {
+    margin-right: 0;
+  }
+}
+
+/* line 32, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+.inlinesocial li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+/* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_base.scss */
+
+.inlinesocial li:last-child {
+  margin-right: 0;
+}
+
+/* line 29, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.rotate {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 31, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.rotate:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* line 36, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.response {
+  position: absolute;
+  left: 42%;
+}
+
+/* line 40, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_utility.scss */
+
+.error {
+  position: absolute;
+  left: 42%;
+  color: #aa0607;
+}
+
+/***********************************************************************************************/
+
+/* @FONT-FACE */
+
+/***********************************************************************************************/
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
+/* line 17, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+
+/* line 35, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-info,
+.icon-location,
+.icon-phone,
+.icon-play,
+.icon-x,
+.icon-target,
+.icon-tumblr,
+.icon-blogger,
+.icon-joomla,
+.icon-wordpress,
+.icon-flickr,
+.icon-facebook,
+.icon-google-drive,
+.icon-share,
+.icon-google,
+.icon-google-plus,
+.icon-mail,
+.icon-twitter,
+.icon-instagram,
+.icon-dribbble,
+.icon-picassa,
+.icon-forrst,
+.icon-deviantart,
+.icon-steam,
+.icon-github,
+.icon-skype,
+.icon-stackoverflow,
+.icon-lastfm,
+.icon-info-2,
+.icon-cancel-circle,
+.icon-feed,
+.icon-youtube,
+.icon-vimeo,
+.icon-apple,
+.icon-android,
+.icon-finder,
+.icon-tux,
+.icon-yahoo,
+.icon-windows,
+.icon-windows8,
+.icon-html5,
+.icon-css3,
+.icon-chrome,
+.icon-firefox,
+.icon-IE,
+.icon-opera,
+.icon-safari,
+.icon-linkedin,
+.icon-reddit,
+.icon-delicious,
+.icon-pinterest,
+.icon-stumbleupon,
+.icon-console {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 45, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-info:before {
+  content: "\21";
+}
+
+/* line 48, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-location:before {
+  content: "\22";
+}
+
+/* line 51, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-phone:before {
+  content: "\23";
+}
+
+/* line 54, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-play:before {
+  content: "\24";
+}
+
+/* line 57, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-x:before {
+  content: "\25";
+}
+
+/* line 60, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-target:before {
+  content: "\26";
+}
+
+/* line 63, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-tumblr:before {
+  content: "\27";
+}
+
+/* line 66, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-blogger:before {
+  content: "\28";
+}
+
+/* line 69, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-joomla:before {
+  content: "\29";
+}
+
+/* line 72, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-wordpress:before {
+  content: "\2a";
+}
+
+/* line 75, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-flickr:before {
+  content: "\2b";
+}
+
+/* line 78, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-facebook:before {
+  content: "\2c";
+}
+
+/* line 81, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-google-drive:before {
+  content: "\2d";
+}
+
+/* line 84, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-share:before {
+  content: "\2e";
+}
+
+/* line 87, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-google:before {
+  content: "\2f";
+}
+
+/* line 90, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-google-plus:before {
+  content: "\30";
+}
+
+/* line 93, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-mail:before {
+  content: "\31";
+}
+
+/* line 96, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-twitter:before {
+  content: "\32";
+}
+
+/* line 99, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-instagram:before {
+  content: "\33";
+}
+
+/* line 102, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-dribbble:before {
+  content: "\34";
+}
+
+/* line 105, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-picassa:before {
+  content: "\35";
+}
+
+/* line 108, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-forrst:before {
+  content: "\36";
+}
+
+/* line 111, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-deviantart:before {
+  content: "\37";
+}
+
+/* line 114, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-steam:before {
+  content: "\38";
+}
+
+/* line 117, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-github:before {
+  content: "\39";
+}
+
+/* line 120, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-skype:before {
+  content: "\3a";
+}
+
+/* line 123, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-stackoverflow:before {
+  content: "\3b";
+}
+
+/* line 126, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-lastfm:before {
+  content: "\3c";
+}
+
+/* line 129, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-info-2:before {
+  content: "\3d";
+}
+
+/* line 132, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-cancel-circle:before {
+  content: "\3e";
+}
+
+/* line 135, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-feed:before {
+  content: "\3f";
+}
+
+/* line 138, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-youtube:before {
+  content: "\40";
+}
+
+/* line 141, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-vimeo:before {
+  content: "\41";
+}
+
+/* line 144, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-apple:before {
+  content: "\42";
+}
+
+/* line 147, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-android:before {
+  content: "\43";
+}
+
+/* line 150, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-finder:before {
+  content: "\44";
+}
+
+/* line 153, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-tux:before {
+  content: "\45";
+}
+
+/* line 156, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-yahoo:before {
+  content: "\46";
+}
+
+/* line 159, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-windows:before {
+  content: "\47";
+}
+
+/* line 162, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-windows8:before {
+  content: "\48";
+}
+
+/* line 165, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-html5:before {
+  content: "\49";
+}
+
+/* line 168, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-css3:before {
+  content: "\4a";
+}
+
+/* line 171, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-chrome:before {
+  content: "\4b";
+}
+
+/* line 174, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-firefox:before {
+  content: "\4c";
+}
+
+/* line 177, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-IE:before {
+  content: "\4d";
+}
+
+/* line 180, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-opera:before {
+  content: "\4e";
+}
+
+/* line 183, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-safari:before {
+  content: "\4f";
+}
+
+/* line 186, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-linkedin:before {
+  content: "\50";
+}
+
+/* line 189, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-reddit:before {
+  content: "\51";
+}
+
+/* line 192, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-delicious:before {
+  content: "\52";
+}
+
+/* line 195, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-pinterest:before {
+  content: "\53";
+}
+
+/* line 198, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-stumbleupon:before {
+  content: "\54";
+}
+
+/* line 201, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+.icon-console:before {
+  content: "\55";
+}
+
+/***********************************************************************************************/
+
+/* GENERAL TYPOGRAPHY STYLES */
+
+/***********************************************************************************************/
+
+/* line 210, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+body {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 219, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+h1,
+h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+/* line 225, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+h1 {
+  font-size: 5.5em;
+  text-shadow: 0 0 10px white, 0 0 1px white, 0 0 1px white, 0 0 1px #fbe8bd, 0 0 1px #fbe8bd, 0 0 1px #fbe8bd, 0 0 4px #fbe8bd, 0 0 1px #fbe8bd;
+  margin-bottom: 30px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/* line 232, E:/xampp/htdocs/ComingSoon/P-DIMA/css/sass/_typography.scss */
+
+h2 {
+  font-size: 30px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  line-height: .9;
+  font-weight: 300;
+  letter-spacing: 3px;
+}

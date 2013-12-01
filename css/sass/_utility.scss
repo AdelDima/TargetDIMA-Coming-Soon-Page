@@ -1,0 +1,44 @@
+/***********************************************************************************************/
+/* UTILITY CLASSES */
+/***********************************************************************************************/
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.inline {
+	@include line(24px);
+	@media screen and (max-width: $break-small) and (max-width: $break-phone) {
+		@include line(10px);
+	}
+	@media screen and (max-width: $break-phone) {
+		@include line(10px);
+	}
+}
+.inlinesocial{
+	@include line(12px);
+}
+
+.rotate {
+  transition: all 0.5s ease;
+  &:hover {
+          transform: rotate(360deg);
+  }
+}
+
+.response{
+	position: absolute;
+	left: 42%;
+}
+.error{
+	position: absolute;
+	left: 42%;
+	color: $lable;
+}
